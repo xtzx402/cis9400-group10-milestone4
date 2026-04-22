@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: milestone3_raw       
+    database: wenli-li-cis-4400   
+    schema: CIS_9440UTA_group_10_milestone3 
+    description: "NYC Property Sales raw data for Group 10 Milestone 3"
+    tables:
+      - name: source_sale_data 
+        description: "Raw property transaction records"
+      - name: source_311_subset_noise
+        description: "311 noise records"
