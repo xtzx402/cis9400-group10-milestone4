@@ -1,0 +1,1 @@
+select * from {{ source('milestone3_raw', 'source_sale_data') }}
