@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: milestone3_raw       
-    project: wenli-li-cis-4400   
-    dataset: CIS_9440UTA_group_10_milestone3 
+    database: wenli-li-cis-4400   
+    schema: CIS_9440UTA_group_10_milestone3 
     description: "NYC Property Sales raw data for Group 10 Milestone 3"
     tables:
       - name: source_sale_data 
